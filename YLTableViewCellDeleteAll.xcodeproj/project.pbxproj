@@ -1,0 +1,532 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BAF3DED51C1FB25B0009DC09 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BAF3DED41C1FB25B0009DC09 /* main.m */; };
+		BAF3DED81C1FB25B0009DC09 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BAF3DED71C1FB25B0009DC09 /* AppDelegate.m */; };
+		BAF3DEDB1C1FB25B0009DC09 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BAF3DEDA1C1FB25B0009DC09 /* ViewController.m */; };
+		BAF3DEDE1C1FB25B0009DC09 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAF3DEDC1C1FB25B0009DC09 /* Main.storyboard */; };
+		BAF3DEE01C1FB25B0009DC09 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAF3DEDF1C1FB25B0009DC09 /* Assets.xcassets */; };
+		BAF3DEE31C1FB25B0009DC09 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAF3DEE11C1FB25B0009DC09 /* LaunchScreen.storyboard */; };
+		BAF3DEEE1C1FB25B0009DC09 /* YLTableViewCellDeleteAllTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BAF3DEED1C1FB25B0009DC09 /* YLTableViewCellDeleteAllTests.m */; };
+		BAF3DEF91C1FB25B0009DC09 /* YLTableViewCellDeleteAllUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BAF3DEF81C1FB25B0009DC09 /* YLTableViewCellDeleteAllUITests.m */; };
+		BAF3DF091C2008A70009DC09 /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BAF3DF071C2008A70009DC09 /* TableViewCell.m */; };
+		BAF3DF0A1C2008A70009DC09 /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BAF3DF081C2008A70009DC09 /* TableViewCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BAF3DEEA1C1FB25B0009DC09 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BAF3DEC81C1FB25B0009DC09 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BAF3DECF1C1FB25B0009DC09;
+			remoteInfo = YLTableViewCellDeleteAll;
+		};
+		BAF3DEF51C1FB25B0009DC09 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BAF3DEC81C1FB25B0009DC09 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BAF3DECF1C1FB25B0009DC09;
+			remoteInfo = YLTableViewCellDeleteAll;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BAF3DED01C1FB25B0009DC09 /* YLTableViewCellDeleteAll.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YLTableViewCellDeleteAll.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAF3DED41C1FB25B0009DC09 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BAF3DED61C1FB25B0009DC09 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BAF3DED71C1FB25B0009DC09 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BAF3DED91C1FB25B0009DC09 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BAF3DEDA1C1FB25B0009DC09 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BAF3DEDD1C1FB25B0009DC09 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BAF3DEDF1C1FB25B0009DC09 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BAF3DEE21C1FB25B0009DC09 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BAF3DEE41C1FB25B0009DC09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BAF3DEE91C1FB25B0009DC09 /* YLTableViewCellDeleteAllTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YLTableViewCellDeleteAllTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAF3DEED1C1FB25B0009DC09 /* YLTableViewCellDeleteAllTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLTableViewCellDeleteAllTests.m; sourceTree = "<group>"; };
+		BAF3DEEF1C1FB25B0009DC09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BAF3DEF41C1FB25B0009DC09 /* YLTableViewCellDeleteAllUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YLTableViewCellDeleteAllUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAF3DEF81C1FB25B0009DC09 /* YLTableViewCellDeleteAllUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLTableViewCellDeleteAllUITests.m; sourceTree = "<group>"; };
+		BAF3DEFA1C1FB25B0009DC09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BAF3DF061C2008A70009DC09 /* TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewCell.h; sourceTree = "<group>"; };
+		BAF3DF071C2008A70009DC09 /* TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewCell.m; sourceTree = "<group>"; };
+		BAF3DF081C2008A70009DC09 /* TableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BAF3DECD1C1FB25B0009DC09 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAF3DEE61C1FB25B0009DC09 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAF3DEF11C1FB25B0009DC09 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BAF3DEC71C1FB25B0009DC09 = {
+			isa = PBXGroup;
+			children = (
+				BAF3DED21C1FB25B0009DC09 /* YLTableViewCellDeleteAll */,
+				BAF3DEEC1C1FB25B0009DC09 /* YLTableViewCellDeleteAllTests */,
+				BAF3DEF71C1FB25B0009DC09 /* YLTableViewCellDeleteAllUITests */,
+				BAF3DED11C1FB25B0009DC09 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BAF3DED11C1FB25B0009DC09 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BAF3DED01C1FB25B0009DC09 /* YLTableViewCellDeleteAll.app */,
+				BAF3DEE91C1FB25B0009DC09 /* YLTableViewCellDeleteAllTests.xctest */,
+				BAF3DEF41C1FB25B0009DC09 /* YLTableViewCellDeleteAllUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BAF3DED21C1FB25B0009DC09 /* YLTableViewCellDeleteAll */ = {
+			isa = PBXGroup;
+			children = (
+				BAF3DED61C1FB25B0009DC09 /* AppDelegate.h */,
+				BAF3DED71C1FB25B0009DC09 /* AppDelegate.m */,
+				BAF3DF061C2008A70009DC09 /* TableViewCell.h */,
+				BAF3DF071C2008A70009DC09 /* TableViewCell.m */,
+				BAF3DF081C2008A70009DC09 /* TableViewCell.xib */,
+				BAF3DED91C1FB25B0009DC09 /* ViewController.h */,
+				BAF3DEDA1C1FB25B0009DC09 /* ViewController.m */,
+				BAF3DEDC1C1FB25B0009DC09 /* Main.storyboard */,
+				BAF3DEDF1C1FB25B0009DC09 /* Assets.xcassets */,
+				BAF3DEE11C1FB25B0009DC09 /* LaunchScreen.storyboard */,
+				BAF3DEE41C1FB25B0009DC09 /* Info.plist */,
+				BAF3DED31C1FB25B0009DC09 /* Supporting Files */,
+			);
+			path = YLTableViewCellDeleteAll;
+			sourceTree = "<group>";
+		};
+		BAF3DED31C1FB25B0009DC09 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BAF3DED41C1FB25B0009DC09 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BAF3DEEC1C1FB25B0009DC09 /* YLTableViewCellDeleteAllTests */ = {
+			isa = PBXGroup;
+			children = (
+				BAF3DEED1C1FB25B0009DC09 /* YLTableViewCellDeleteAllTests.m */,
+				BAF3DEEF1C1FB25B0009DC09 /* Info.plist */,
+			);
+			path = YLTableViewCellDeleteAllTests;
+			sourceTree = "<group>";
+		};
+		BAF3DEF71C1FB25B0009DC09 /* YLTableViewCellDeleteAllUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BAF3DEF81C1FB25B0009DC09 /* YLTableViewCellDeleteAllUITests.m */,
+				BAF3DEFA1C1FB25B0009DC09 /* Info.plist */,
+			);
+			path = YLTableViewCellDeleteAllUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BAF3DECF1C1FB25B0009DC09 /* YLTableViewCellDeleteAll */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BAF3DEFD1C1FB25B0009DC09 /* Build configuration list for PBXNativeTarget "YLTableViewCellDeleteAll" */;
+			buildPhases = (
+				BAF3DECC1C1FB25B0009DC09 /* Sources */,
+				BAF3DECD1C1FB25B0009DC09 /* Frameworks */,
+				BAF3DECE1C1FB25B0009DC09 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YLTableViewCellDeleteAll;
+			productName = YLTableViewCellDeleteAll;
+			productReference = BAF3DED01C1FB25B0009DC09 /* YLTableViewCellDeleteAll.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BAF3DEE81C1FB25B0009DC09 /* YLTableViewCellDeleteAllTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BAF3DF001C1FB25B0009DC09 /* Build configuration list for PBXNativeTarget "YLTableViewCellDeleteAllTests" */;
+			buildPhases = (
+				BAF3DEE51C1FB25B0009DC09 /* Sources */,
+				BAF3DEE61C1FB25B0009DC09 /* Frameworks */,
+				BAF3DEE71C1FB25B0009DC09 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BAF3DEEB1C1FB25B0009DC09 /* PBXTargetDependency */,
+			);
+			name = YLTableViewCellDeleteAllTests;
+			productName = YLTableViewCellDeleteAllTests;
+			productReference = BAF3DEE91C1FB25B0009DC09 /* YLTableViewCellDeleteAllTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BAF3DEF31C1FB25B0009DC09 /* YLTableViewCellDeleteAllUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BAF3DF031C1FB25B0009DC09 /* Build configuration list for PBXNativeTarget "YLTableViewCellDeleteAllUITests" */;
+			buildPhases = (
+				BAF3DEF01C1FB25B0009DC09 /* Sources */,
+				BAF3DEF11C1FB25B0009DC09 /* Frameworks */,
+				BAF3DEF21C1FB25B0009DC09 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BAF3DEF61C1FB25B0009DC09 /* PBXTargetDependency */,
+			);
+			name = YLTableViewCellDeleteAllUITests;
+			productName = YLTableViewCellDeleteAllUITests;
+			productReference = BAF3DEF41C1FB25B0009DC09 /* YLTableViewCellDeleteAllUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BAF3DEC81C1FB25B0009DC09 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = xuanlin.zhu;
+				TargetAttributes = {
+					BAF3DECF1C1FB25B0009DC09 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					BAF3DEE81C1FB25B0009DC09 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = BAF3DECF1C1FB25B0009DC09;
+					};
+					BAF3DEF31C1FB25B0009DC09 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = BAF3DECF1C1FB25B0009DC09;
+					};
+				};
+			};
+			buildConfigurationList = BAF3DECB1C1FB25B0009DC09 /* Build configuration list for PBXProject "YLTableViewCellDeleteAll" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BAF3DEC71C1FB25B0009DC09;
+			productRefGroup = BAF3DED11C1FB25B0009DC09 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BAF3DECF1C1FB25B0009DC09 /* YLTableViewCellDeleteAll */,
+				BAF3DEE81C1FB25B0009DC09 /* YLTableViewCellDeleteAllTests */,
+				BAF3DEF31C1FB25B0009DC09 /* YLTableViewCellDeleteAllUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BAF3DECE1C1FB25B0009DC09 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAF3DEE31C1FB25B0009DC09 /* LaunchScreen.storyboard in Resources */,
+				BAF3DF0A1C2008A70009DC09 /* TableViewCell.xib in Resources */,
+				BAF3DEE01C1FB25B0009DC09 /* Assets.xcassets in Resources */,
+				BAF3DEDE1C1FB25B0009DC09 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAF3DEE71C1FB25B0009DC09 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAF3DEF21C1FB25B0009DC09 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BAF3DECC1C1FB25B0009DC09 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAF3DEDB1C1FB25B0009DC09 /* ViewController.m in Sources */,
+				BAF3DF091C2008A70009DC09 /* TableViewCell.m in Sources */,
+				BAF3DED81C1FB25B0009DC09 /* AppDelegate.m in Sources */,
+				BAF3DED51C1FB25B0009DC09 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAF3DEE51C1FB25B0009DC09 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAF3DEEE1C1FB25B0009DC09 /* YLTableViewCellDeleteAllTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAF3DEF01C1FB25B0009DC09 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAF3DEF91C1FB25B0009DC09 /* YLTableViewCellDeleteAllUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BAF3DEEB1C1FB25B0009DC09 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BAF3DECF1C1FB25B0009DC09 /* YLTableViewCellDeleteAll */;
+			targetProxy = BAF3DEEA1C1FB25B0009DC09 /* PBXContainerItemProxy */;
+		};
+		BAF3DEF61C1FB25B0009DC09 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BAF3DECF1C1FB25B0009DC09 /* YLTableViewCellDeleteAll */;
+			targetProxy = BAF3DEF51C1FB25B0009DC09 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BAF3DEDC1C1FB25B0009DC09 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BAF3DEDD1C1FB25B0009DC09 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BAF3DEE11C1FB25B0009DC09 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BAF3DEE21C1FB25B0009DC09 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BAF3DEFB1C1FB25B0009DC09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BAF3DEFC1C1FB25B0009DC09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BAF3DEFE1C1FB25B0009DC09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YLTableViewCellDeleteAll/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ThinkMobile.YLTableViewCellDeleteAll;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BAF3DEFF1C1FB25B0009DC09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YLTableViewCellDeleteAll/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ThinkMobile.YLTableViewCellDeleteAll;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BAF3DF011C1FB25B0009DC09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = YLTableViewCellDeleteAllTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ThinkMobile.YLTableViewCellDeleteAllTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YLTableViewCellDeleteAll.app/YLTableViewCellDeleteAll";
+			};
+			name = Debug;
+		};
+		BAF3DF021C1FB25B0009DC09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = YLTableViewCellDeleteAllTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ThinkMobile.YLTableViewCellDeleteAllTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YLTableViewCellDeleteAll.app/YLTableViewCellDeleteAll";
+			};
+			name = Release;
+		};
+		BAF3DF041C1FB25B0009DC09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = YLTableViewCellDeleteAllUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ThinkMobile.YLTableViewCellDeleteAllUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YLTableViewCellDeleteAll;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		BAF3DF051C1FB25B0009DC09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = YLTableViewCellDeleteAllUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ThinkMobile.YLTableViewCellDeleteAllUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YLTableViewCellDeleteAll;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BAF3DECB1C1FB25B0009DC09 /* Build configuration list for PBXProject "YLTableViewCellDeleteAll" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAF3DEFB1C1FB25B0009DC09 /* Debug */,
+				BAF3DEFC1C1FB25B0009DC09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BAF3DEFD1C1FB25B0009DC09 /* Build configuration list for PBXNativeTarget "YLTableViewCellDeleteAll" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAF3DEFE1C1FB25B0009DC09 /* Debug */,
+				BAF3DEFF1C1FB25B0009DC09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BAF3DF001C1FB25B0009DC09 /* Build configuration list for PBXNativeTarget "YLTableViewCellDeleteAllTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAF3DF011C1FB25B0009DC09 /* Debug */,
+				BAF3DF021C1FB25B0009DC09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BAF3DF031C1FB25B0009DC09 /* Build configuration list for PBXNativeTarget "YLTableViewCellDeleteAllUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAF3DF041C1FB25B0009DC09 /* Debug */,
+				BAF3DF051C1FB25B0009DC09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BAF3DEC81C1FB25B0009DC09 /* Project object */;
+}
